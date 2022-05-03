@@ -1,0 +1,78 @@
+
+*{
+   box-sizing: border-box;
+} 
+    body{
+    margin: 0;
+   align-items: center;
+    background-image: url(aqua-21491_1920.jpg);
+    justify-content: center;
+    font-family: '0pen sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container{
+   background-color: rgba(136, 145, 186, 0.338);
+   box-shadow:  1px 1px 10px 10px rgb(65, 101, 164);
+  border-radius:7px;
+  width: 450px;
+}
+h1{
+    text-align: center;
+    margin: 0 0 18px;
+}
+.valid{
+    padding:60px 50px;
+}
+.form{
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.form label{
+    display: block;
+    margin-top:5px ;
+
+}
+.form input{
+    border:2px solid rgb(80, 79, 98);
+    border-radius: 6px;
+    padding: 4px;
+    display: block; 
+    width:100% ;
+}
+.form input:focus{
+    outline:0;
+    border-color: #3c3e3aa7;
+}
+.form.success input{
+    border-color: var(--success-color);
+}
+
+
+.valid button{
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(251, 246, 246);
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    border: 2px solid rgb(77, 76, 88); ;
+    cursor: pointer;
+    width: 100%;
+    background-color:rgb(177, 177, 192) ;
+
+}
+.btn{
+    position: relative;
+   
+}
+.btn:hover{
+    color: rgb(235, 235, 245);
+    background-color: rgb(28, 13, 247);
+}
+
+.form.error message{
+    visibility: visible;
+}
